@@ -5,7 +5,6 @@ export default function Home() {
     <div className="container" style={{ fontFamily: 'Arial', padding: '2rem' }}>
       <Head>      
   <title>33ème Avenue - Salon de coiffure</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Tarifs, adresse et réseaux sociaux du salon 33ème Avenue à Gournay-sur-Marne" />
     <style>
         body, html {
