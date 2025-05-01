@@ -16,7 +16,7 @@ export default function Home() {
             overflow-x: hidden;
         }
         main {
-            padding-top: 100px; 
+            padding-top: 1000px; 
         }
     </style>
   </Head>
