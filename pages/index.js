@@ -9,14 +9,15 @@ export default function Home() {
   <meta name="description" content="Tarifs, adresse et réseaux sociaux du salon 33ème Avenue à Gournay-sur-Marne" />
     <style>
         body, html {
-            margin: 0;
+            margin-top: 10px;
             padding: 0;
             width: 100%;
             heigth: 100%;
             overflow-x: hidden;
         }
         main {
-            padding-top: 1000px; 
+            padding-top: 100px;
+            margin-top: 20px;
         }
     </style>
   </Head>
