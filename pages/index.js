@@ -8,7 +8,14 @@ export default function Home() {
         <meta name="description" content="Tarifs, adresse et réseaux sociaux du salon 33ème Avenue à Gournay-sur-Marne" />
       </Head>
 
-      <main>
+     
+  
+  
+  
+  
+  
+  
+  <main>
         <p style={{ fontSize: '1.2rem', fontWeight: 'bold', textAlign: 'center', marginBottom: '2rem' }}>
           Bienvenue chez 33ème Avenue
         </p>
