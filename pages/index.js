@@ -15,8 +15,22 @@ export default function Home() {
         <h2>📍 Adresse</h2>
         <p>33 avenue des Princes, 93460 Gournay-sur-Marne</p>
 
+        <h2>🕒 Horaires</h2>
+        <ul>
+          <li><strong>Lundi :</strong> 9h30 – 18h</li>
+          <li><strong>Mardi - Mercredi :</strong> 9h30 – 19h</li>
+          <li><strong>Jeudi - Vendredi :</strong> 9h – 19h</li>
+          <li><strong>Samedi :</strong> 9h – 18h</li>
+        </ul>
+
+
         <h2>💈 Tarifs</h2>
-        <p><strong>Voir tous nos tarifs sur Planity :</strong> <a href="https://www.planity.com" target="_blank">Cliquez ici</a></p>
+       <p><strong>Voir tous nos tarifs sur Planity :</strong></p>
+       <a href="https://www.planity.com" target="_blank" title="Planity">
+         <img src="https://cdn6.aptoide.com/imgs/c/0/6/c063625873b06a876ef056391f4286fe_icon.png" alt="Planity" style={{ width: '50px', height: '50px', borderRadius: '12px' }} />
+       </a>
+
+  
 
         <h3>Homme</h3>
         <ul>
@@ -41,7 +55,7 @@ export default function Home() {
         <h2>📲 Réseaux & Réservations</h2>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '1rem' }}>
           <a href="https://www.planity.com" target="_blank" title="Planity">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Planity_logo.svg/512px-Planity_logo.svg.png" alt="Planity" style={{ width: '50px', height: '50px' }} />
+            <img src="https://cdn6.aptoide.com/imgs/c/0/6/c063625873b06a876ef056391f4286fe_icon.png" alt="Planity" style={{ width: '50px', height: '50px' }} />
           </a>
           <a href="https://www.instagram.com/33rd_avenue_/" target="_blank" title="Instagram">
             <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style={{ width: '50px', height: '50px' }} />
