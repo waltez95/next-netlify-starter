@@ -15,7 +15,7 @@ export default function Home() {
             overflow-x: hidden; /* Empêche le défilement horizontal */
         }
         main {
-            padding-top: 0; 
+            padding-top: 50px; 
         }
     </style>
   </Head>
