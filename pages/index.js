@@ -24,10 +24,7 @@ export default function Home() {
 
   
   <main>
-        <p style={{ fontSize: '1.2rem', fontWeight: 'bold', textAlign: 'center', marginBottom: '2rem' }}>
-          Bienvenue chez 33ème Avenue
-        </p>
-
+        
         <h2>📍 Adresse</h2>
         <p>33 avenue des Princes, 93460 Gournay-sur-Marne</p>
 
