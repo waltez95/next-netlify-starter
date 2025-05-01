@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 
 export default function Home() {
@@ -29,7 +28,12 @@ export default function Home() {
         </ul>
 
         <h2>💈 Tarifs et réservations :</h2>
-
+        <div style={{ marginTop: '1rem', textAlign: 'center' }}>
+          <a href="https://www.planity.com" target="_blank" title="Planity">
+            <img src="https://cdn6.aptoide.com/imgs/c/0/6/c063625873b06a876ef056391f4286fe_icon.png" alt="Planity" style={{ width: '50px', height: '50px', borderRadius: '12px' }} />
+          </a>
+        </div>
+            
         <h3>Homme</h3>
         <ul>
           <li>Coupe homme : 27 €</li>
@@ -49,12 +53,6 @@ export default function Home() {
           <li>Coupe brushing - garçon -10 ans : 19 €</li>
           <li>Coupe enfant -3 ans : 14 €</li>
         </ul>
-
-        <div style={{ marginTop: '1rem', textAlign: 'center' }}>
-          <a href="https://www.planity.com" target="_blank" title="Planity">
-            <img src="https://cdn6.aptoide.com/imgs/c/0/6/c063625873b06a876ef056391f4286fe_icon.png" alt="Planity" style={{ width: '50px', height: '50px', borderRadius: '12px' }} />
-          </a>
-        </div>
 
         <h2>📲 Réseaux sociaux</h2>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '1rem' }}>
