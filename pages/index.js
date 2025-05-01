@@ -12,10 +12,11 @@ export default function Home() {
             margin: 0;
             padding: 0;
             width: 100%;
-            overflow-x: hidden; /* Empêche le défilement horizontal */
+            heigth: 100%;
+            overflow-x: hidden;
         }
         main {
-            padding-top: 50px; 
+            padding-top: 100px; 
         }
     </style>
   </Head>
