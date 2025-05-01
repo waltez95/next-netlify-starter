@@ -3,12 +3,22 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className="container" style={{ fontFamily: 'Arial', padding: '2rem' }}>
-      <Head>
-        <Head>
+      <Head>      
   <title>33ème Avenue - Salon de coiffure</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Tarifs, adresse et réseaux sociaux du salon 33ème Avenue à Gournay-sur-Marne" />
-</Head>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow-x: hidden; /* Empêche le défilement horizontal */
+        }
+        main {
+            padding-top: 0; 
+        }
+    </style>
+  </Head>
 
 
   
