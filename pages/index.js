@@ -46,7 +46,7 @@ export default function Home() {
           <a href="https://www.instagram.com/33rd_avenue_/" target="_blank" title="Instagram">
             <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style={{ width: '50px', height: '50px' }} />
           </a>
-          <a href="https://www.tiktok.com/@33emeavenue" target="_blank" title="TikTok">
+          <a href="https://www.tiktok.com/@33emavenue" target="_blank" title="TikTok">
             <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok" style={{ width: '50px', height: '50px' }} />
           </a>
           <a href="https://www.facebook.com/33emeavenue" target="_blank" title="Facebook">
