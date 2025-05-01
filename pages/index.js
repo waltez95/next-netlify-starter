@@ -11,8 +11,6 @@ export default function Home() {
 
       <main>
         <p style={{ fontSize: '1.2rem', fontWeight: 'bold', textAlign: 'center', marginBottom: '2rem' }}>
-          Bienvenue chez 33ème Avenue
-        </p>
 
         <h2>📍 Adresse</h2>
         <p>33 avenue des Princes, 93460 Gournay-sur-Marne</p>
@@ -29,7 +27,10 @@ export default function Home() {
         </ul>
 
         <h2>💈 Tarifs et réservations :</h2>
-
+        <div style={{ marginTop: '1rem', textAlign: 'center' }}>
+          <a href="https://www.planity.com" target="_blank" title="Planity">
+            <img src="https://cdn6.aptoide.com/imgs/c/0/6/c063625873b06a876ef056391f4286fe_icon.png" alt="Planity" style={{ width: '50px', height: '50px', borderRadius: '12px' }} />
+          </a>
         <h3>Homme</h3>
         <ul>
           <li>Coupe homme : 27 €</li>
@@ -50,10 +51,6 @@ export default function Home() {
           <li>Coupe enfant -3 ans : 14 €</li>
         </ul>
 
-        <div style={{ marginTop: '1rem', textAlign: 'center' }}>
-          <a href="https://www.planity.com" target="_blank" title="Planity">
-            <img src="https://cdn6.aptoide.com/imgs/c/0/6/c063625873b06a876ef056391f4286fe_icon.png" alt="Planity" style={{ width: '50px', height: '50px', borderRadius: '12px' }} />
-          </a>
         </div>
 
         <h2>📲 Réseaux sociaux</h2>
