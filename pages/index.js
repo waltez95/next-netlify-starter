@@ -10,7 +10,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Bienvenue chez 33ème Avenue</h1>
+        <h1 style={{ fontSize: '2rem', fontWeight: 'bold', textAlign: 'center', marginBottom: '1.5rem' }}>
+           Bienvenue chez 33ème Avenue
+        </h1>
+
 
         <h2>📍 Adresse</h2>
         <p>33 avenue des Princes, 93460 Gournay-sur-Marne</p>
