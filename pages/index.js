@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="container" style={{ fontFamily: 'Arial', padding: '2rem', marginTop: '400px' }}>
+    <div className="container" style={{ fontFamily: 'Arial', padding: '2rem', marginTop: '450px' }}>
       <Head>
         <title>33ème Avenue - Salon de coiffure</title>
         <meta name="description" content="Tarifs, adresse et réseaux sociaux du salon 33ème Avenue à Gournay-sur-Marne" />
@@ -58,15 +58,15 @@ export default function Home() {
         </ul>
 
         <h2>📱 Réseaux sociaux</h2>
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '1rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '30px', marginTop: '1rem' }}>
           <a href="https://www.instagram.com/33rd_avenue_/" target="_blank" title="Instagram">
-            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style={{ width: '30px', height: '30px' }} />
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style={{ width: '50px', height: '50px' }} />
           </a>
           <a href="https://www.tiktok.com/@33emavenue" target="_blank" title="TikTok">
-            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok" style={{ width: '30px', height: '30px' }} />
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok" style={{ width: '50px', height: '50px' }} />
           </a>
           <a href="https://www.facebook.com/33emeavenue" target="_blank" title="Facebook">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style={{ width: '30px', height: '30px' }} />
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style={{ width: '50px', height: '50px' }} />
           </a>
         </div>
       </main>
