@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="container" style={{ fontFamily: 'Arial', padding: '2rem', marginTop: '300px' }}>
+    <div className="container" style={{ fontFamily: 'Arial', padding: '2rem', marginTop: '400px' }}>
       <Head>
         <title>33ème Avenue - Salon de coiffure</title>
         <meta name="description" content="Tarifs, adresse et réseaux sociaux du salon 33ème Avenue à Gournay-sur-Marne" />
