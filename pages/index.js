@@ -60,16 +60,4 @@ export default function Home() {
         <h2>📱 Réseaux sociaux</h2>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '1rem' }}>
           <a href="https://www.instagram.com/33rd_avenue_/" target="_blank" title="Instagram">
-            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style={{ width: '30px', height: '30px' }} />
-          </a>
-          <a href="https://www.tiktok.com/@33emavenue" target="_blank" title="TikTok">
-            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok" style={{ width: '30px', height: '30px' }} />
-          </a>
-          <a href="https://www.facebook.com/33emeavenue" target="_blank" title="Facebook">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style={{ width: '30px', height: '30px' }} />
-          </a>
-        </div>
-      </main>
-    </div>
-  );
-}
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/
