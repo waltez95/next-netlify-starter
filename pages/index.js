@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="container" style={{ fontFamily: 'Arial', padding: '2rem' }}>
+    <div className="container" style={{ fontFamily: 'Arial', padding: '2rem', marginTop: '50px' }}>
       <Head>
         <title>33ème Avenue - Salon de coiffure</title>
         <meta name="description" content="Tarifs, adresse et réseaux sociaux du salon 33ème Avenue à Gournay-sur-Marne" />
@@ -10,15 +10,15 @@ export default function Home() {
       </Head>
 
       <main style={{ fontSize: '1.2rem', fontWeight: 'bold', textAlign: 'center', marginBottom: '2rem' }}>
-        <p>Bienvenue chez 33ème Avenue</p>
+        <p style={{ marginTop: '2rem' }}>Bienvenue chez 33ème Avenue</p>
 
-        <h2>📍 Adresse</h2>
+        <h2 style={{ marginTop: '2rem' }}>📍 Adresse</h2>
         <p>33 avenue des Princes, 93460 Gournay-sur-Marne</p>
 
-        <h2>📞 Téléphone</h2>
+        <h2 style={{ marginTop: '2rem' }}>📞 Téléphone</h2>
         <p>01 43 04 08 81</p>
 
-        <h2>🕒 Horaires</h2>
+        <h2 style={{ marginTop: '2rem' }}>🕒 Horaires</h2>
         <ul>
           <li><strong>Lundi :</strong> 9h30 – 18h</li>
           <li><strong>Mardi - Mercredi :</strong> 9h30 – 19h</li>
@@ -26,7 +26,7 @@ export default function Home() {
           <li><strong>Samedi :</strong> 9h – 18h</li>
         </ul>
 
-        <h2>💈 Tarifs et réservations :</h2>
+        <h2 style={{ marginTop: '2rem' }}>💈 Tarifs et réservations :</h2>
         <div style={{ marginTop: '1rem', textAlign: 'center' }}>
           <a href="https://www.planity.com" target="_blank" title="Planity">
             <img 
